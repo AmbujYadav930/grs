@@ -1,0 +1,430 @@
+.box {
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 2px 8px rgba(116, 116, 238, 0.15);
+}
+
+.box:hover {
+  transform: scale(1.04); 
+  box-shadow: 10px 8px 20px rgba(116, 116, 238, 0.35);
+  cursor: pointer;
+}
+footer{
+  position: absolute;
+  width:100%;
+  margin-top:80px;
+}
+
+/* admin*/
+
+.admin-wrapper {
+  background: linear-gradient(135deg, #1e1b4b 0%, #4c1d95 100%);
+  padding: 20px;
+}
+
+.admin-card {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+}
+
+.admin-header {
+  background: linear-gradient(135deg, #4338ca 0%, #7c3aed 100%);
+}
+
+.shield-icon {
+  width: 50px;
+  height: 50px;
+  background: rgba(255,255,255,0.2);
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.admin-body {
+  border-radius: 0 0 16px 16px;
+}
+
+.btn-admin {
+  background: linear-gradient(90deg, #4F46E5, #7C3AED);
+  color: white;
+  border: none;
+  padding: 12px;
+  transition: all 0.3s ease;
+}
+
+.btn-admin:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(124, 58, 237, 0.4);
+  color: white;
+}
+
+.form-control:focus {
+  border-color: #7C3AED;
+  box-shadow: 0 0 0 0.2rem rgba(124, 58, 237, 0.25);
+}
+/*Admin Dashboard listbutton*/
+
+
+
+/* adminSlidebar css */
+
+.adminDashBody{
+  height:100%;
+}
+
+ .adminSlidebar{
+  height:100%;
+  width:260px;
+  background-color: linear-gradient(180deg, #0B1E2D 0%, #1F5F6F 100%);
+} 
+
+.dashIcon{
+  background-color:rgba(30,58,138)
+}
+
+.adminicon{
+  height:35px;
+  width:35px;
+}
+.slideheading{
+
+  font-size:x-small;
+
+}
+.admin_panel{
+  font-size:xx-small;
+}
+
+.menu-title{
+  font-size:xx-small;
+}
+
+li{
+  font-size:small
+}
+
+/* College CSS  */
+
+.college-card{
+     transition: all 0.3s ease-in-out;
+  box-shadow: 0px 2px 8px rgba(116, 116, 238, 0.15);
+
+
+}
+
+ .college-card:hover{
+  transform: scale(1.04); 
+  box-shadow: 10px 8px 20px rgba(116, 116, 238, 0.35);
+  cursor: pointer;
+} 
+
+/*Register Drop Down College*/
+
+.RDropDown{
+  height:28px;
+  width:60px;
+  font-size:12px;
+
+}
+
+.custom-select :focus{
+  border-color:#0d6efd;
+  box-shadow:rgba(13, 110,253,0.25);
+}
+
+/* users cards css */
+
+
+.dashboard-cards-wrapper {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+a:hover {
+  background-color: rgba(255,255,255,0.1);
+}
+
+.dashboard-card {
+  background: white;
+  width: 200px;
+  height:280px;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 8px 20px hwb(232 2% 8% / 0.94);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 2px 8px rgba(17, 17, 223, 0.15);
+}
+
+.dashboard-card:hover {
+  transform: scale(1.04); 
+box-shadow: 10px 8px 20px rgba(116, 116, 238, 0.35);
+  cursor: pointer;
+}
+
+.card-header {
+  background: hsl(246, 82%, 45%);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.count-badge {
+  background: white;
+  color: black;
+  padding: 2px 10px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.card-title {
+  margin: 15px 0 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.card-icon {
+  margin: 10px 0 20px 0;
+}
+
+.check-btn {
+  background: #4DB6AC;
+  color: black;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.check-btn:hover {
+  background: #26A69A;
+}
+
+/* Add Complaint */
+
+.add-complaint-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+  background: #f8f9fa;
+  padding: 20px;
+}
+
+.add-complaint-card {
+  background: white;
+  width: 100%;
+  max-width: 200px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 2px 8px rgba(116, 116, 238, 0.15);
+}
+.add-complaint-card:hover{
+  transform: scale(1.04); 
+box-shadow: 10px 8px 20px rgba(116, 116, 238, 0.35);
+  cursor: pointer;
+}
+
+.add-complaint-card h3 {
+  font-weight: 700;
+}
+
+.btn-primary {
+  background: #0d6efd;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+}
+.btn-primary:hover {
+  background: #0b5ed7;
+}
+
+/* my complaint css */
+
+.my-complaint-container {
+  background: white;
+  border-radius: 12px;
+  padding: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin: 20px;
+}
+
+.my-complaint-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.my-complaint-header h5 {
+  margin: 0;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.my-complaint-body {
+  padding: 40px 20px;
+  min-height: 300px;
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #6c757d;
+}
+.empty-state p {
+  margin: 0;
+  font-size: 15px;
+}
+
+/* Discuss Forem */
+
+
+.forum-container {
+  padding: 30px;
+  background: #f8f9fa;
+  min-height: 90vh;
+}
+
+.ask-card {
+  background: white;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 123, 255, 0.2);
+
+   transition: all 0.3s ease-in-out;
+  box-shadow: 0px 2px 8px rgba(116, 116, 238, 0.15);
+
+
+}
+
+.ask-card:hover{
+   transform: scale(1.04); 
+box-shadow: 10px 8px 20px rgba(116, 116, 238, 0.35);
+  cursor: pointer;
+}
+
+.ask-card h3 {
+  font-weight: 700;
+}
+
+.btn-primary {
+  background: #4dabf7;
+  border: none;
+  padding: 8px 25px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+.btn-primary:hover {
+  background: #339af0;
+}
+
+.table-wrapper {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width:50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Update profile Css     */
+
+.profile-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+
+.profile-card {
+  background: white;
+  width: 100%;
+  max-width: 750px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  overflow: hidden;
+}
+
+.profile-header {
+  background: linear-gradient(135deg, #4dabf7, #339af0);
+  color: white;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+.profile-header h4 { margin: 0; font-weight: 700; }
+.profile-header p { margin: 0; font-size: 12px; opacity: 0.9; }
+
+.profile-card form { padding: 25px; }
+
+.section-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: #6c757d;
+  letter-spacing: 0.5px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.upload-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #dee2e6;
+  border-radius: 8px;
+  padding: 20px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 13px;
+  color: #6c757d;
+  margin-bottom: 20px;
+}
+.upload-box:hover { border-color: #4dabf7; }
+
+label { font-size: 13px; font-weight: 600; margin-bottom: 5px; }
+
+.btn-save {
+  background: linear-gradient(135deg, #4dabf7, #339af0);
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  font-weight: 600;
+  border-radius: 6px;
+}
+.btn-save:hover { opacity: 0.9; }
+
+
+
+
+
+
+
+
+
+
+
+
